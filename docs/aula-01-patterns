@@ -1,0 +1,72 @@
+<mxfile host="app.diagrams.net" modified="2022-08-19T23:22:42.427Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="LJ1aNxaichY6mH-od7az" version="20.2.4" type="github">
+  <diagram id="BMNWyFNisL4X7pplHh5j" name="Página-1">
+    <mxGraphModel dx="1537" dy="291" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="jt_v8_ZqYYc-CAZ56Jwv-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jt_v8_ZqYYc-CAZ56Jwv-2" target="jt_v8_ZqYYc-CAZ56Jwv-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jt_v8_ZqYYc-CAZ56Jwv-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="jt_v8_ZqYYc-CAZ56Jwv-2" target="jt_v8_ZqYYc-CAZ56Jwv-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jt_v8_ZqYYc-CAZ56Jwv-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.583;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;curved=1;" edge="1" parent="1" source="jt_v8_ZqYYc-CAZ56Jwv-2" target="jt_v8_ZqYYc-CAZ56Jwv-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jt_v8_ZqYYc-CAZ56Jwv-2" value="Padrões de Projeto" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jt_v8_ZqYYc-CAZ56Jwv-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=1;" edge="1" parent="1" source="jt_v8_ZqYYc-CAZ56Jwv-3" target="jt_v8_ZqYYc-CAZ56Jwv-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jt_v8_ZqYYc-CAZ56Jwv-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="jt_v8_ZqYYc-CAZ56Jwv-3" target="jt_v8_ZqYYc-CAZ56Jwv-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="370" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jt_v8_ZqYYc-CAZ56Jwv-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jt_v8_ZqYYc-CAZ56Jwv-3" target="jt_v8_ZqYYc-CAZ56Jwv-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jt_v8_ZqYYc-CAZ56Jwv-3" value="GoF" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="290" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jt_v8_ZqYYc-CAZ56Jwv-4" value="Padrões de Arquitetura&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="170" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jt_v8_ZqYYc-CAZ56Jwv-7" value="Padrões de Engenharia&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="80" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jt_v8_ZqYYc-CAZ56Jwv-9" value="Estruturais" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="400" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jt_v8_ZqYYc-CAZ56Jwv-10" value="Comportamentais" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="460" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jt_v8_ZqYYc-CAZ56Jwv-11" value="Criacionais" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="400" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jt_v8_ZqYYc-CAZ56Jwv-17" value="&lt;h1&gt;O que é um Padrão ?&lt;/h1&gt;&lt;p&gt;R: Uma forma de resolver um problema complexo.&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=#99FF99;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-340" y="180" width="350" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jt_v8_ZqYYc-CAZ56Jwv-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="jt_v8_ZqYYc-CAZ56Jwv-18" target="jt_v8_ZqYYc-CAZ56Jwv-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jt_v8_ZqYYc-CAZ56Jwv-20" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jt_v8_ZqYYc-CAZ56Jwv-18" target="jt_v8_ZqYYc-CAZ56Jwv-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jt_v8_ZqYYc-CAZ56Jwv-18" value="Padrão" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jt_v8_ZqYYc-CAZ56Jwv-21" value="&lt;h1&gt;O que é um Design Pattern?&lt;/h1&gt;&lt;p&gt;R: Uma forma de resolver um problema complexo no contexto do desenvolvimento de software. No caso de aplicações complexas, existem vários problemas que podem ser catalogados e reutilizados de forma unificada, comum e compartilhada entre pessoas dentro de um mesmo projeto&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=#99FF99;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-340" y="270" width="350" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="jt_v8_ZqYYc-CAZ56Jwv-22" value="&lt;h1&gt;Quais são as características de um Design Pattern ?&lt;/h1&gt;&lt;p&gt;Os seguintes itens fazem parte de um Design Pattern&lt;/p&gt;&lt;p&gt;- Contexto ou Objetivo&amp;nbsp;&lt;/p&gt;&lt;p&gt;- Fácil de usar&amp;nbsp;&lt;/p&gt;&lt;p&gt;- Replicável&amp;nbsp;&lt;/p&gt;&lt;p&gt;- Deve ter um exemplo&lt;/p&gt;&lt;p&gt;- Modelo em Diagrama UML&lt;/p&gt;&lt;p&gt;- Nome, Identidade ou uma referência clara&lt;/p&gt;&lt;p&gt;- Qualidade ou Pontos fortes e fracos&lt;/p&gt;&lt;p&gt;- Relacionamentos com outros Padrões&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=#99FF99;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-340" y="410" width="350" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="jt_v8_ZqYYc-CAZ56Jwv-23" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://journaldev.nyc3.digitaloceanspaces.com/2019/08/gangs-of-four-design-patterns-book.png;" vertex="1" parent="1">
+          <mxGeometry x="290" y="220" width="102" height="128.74" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
