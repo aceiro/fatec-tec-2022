@@ -1,9 +1,19 @@
 import pandas as pd
 
 class CalculatePibPerCapta:
+    _instance = None
     _BASE_FILE = "data/base.xlsx"
     raw_data = None
     current_content = None
+
+    def instance(self):
+        # 1 - Criar uma instancia unica
+        # use o Design Pattern Singleton
+        # sugestao de implementacao
+        # https://python-patterns.guide/gang-of-four/singleton/
+        # https://github.com/Sean-Bradley/Design-Patterns-In-Python/tree/master/singleton
+        print(None)
+
     def load_file(self):
         print("Inicio do script de PIB x Percapta")
         self.raw_data = pd.ExcelFile(self._BASE_FILE)
