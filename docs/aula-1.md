@@ -19,6 +19,7 @@ Objetivos dessa aula:
 **Solução:** Criar um objeto que centraliza e é responsável por gerenciar o ciclo de vida de criação de objetos.
 
 **Desenho da solução - UML**
+
 ![Singleton](https://github.com/aceiro/fatec-tec-2022/blob/main/docs/aula-1/singleton_concept.svg?raw=true)
 
 # Atividade 
