@@ -1,0 +1,29 @@
+Inicio do script de PIB x Percapta
+                 Estado Regiao
+0              Rondonia      N
+1                  Acre      N
+2              Amazonas      N
+3               Roraima      N
+4                  Para      N
+5                 Amapa      N
+6             Tocantins      N
+7              Maranhao     NE
+8                 Piaui     NE
+9                 Ceara     NE
+10  Rio Grande do Norte     NE
+11              Paraiba     NE
+12           Pernambuco     NE
+13              Alagoas     NE
+14              Sergipe     NE
+15                Bahia     NE
+16         Minas Gerais     SE
+17       Espirito Santo     SE
+18       Rio de Janeiro     SE
+19            Sao Paulo     SE
+20               Parana      S
+21       Santa Catarina      S
+22    Rio Grande do Sul      S
+23   Mato Grosso do Sul     CO
+24          Mato Grosso     CO
+25                Goias     CO
+26     Distrito Federal     CO
