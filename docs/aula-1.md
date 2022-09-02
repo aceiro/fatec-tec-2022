@@ -1,4 +1,4 @@
-# PARTE 1 - Técnicas de Desenvolimento (TEC-2022)
+# PARTE 1 - TÉCNICA DE PROGRAMAÇÃO II (TEC-2022)
 
 ## Diretório para armazenamento da ementa da disciplina
 
@@ -18,12 +18,13 @@ Objetivos dessa aula:
 
 **Solução:** Criar um objeto que centraliza e é responsável por gerenciar o ciclo de vida de criação de objetos.
 
----
+**Desenho da solução - UML**
+![Singleton](https://github.com/aceiro/fatec-tec-2022/blob/main/docs/aula-1/singleton_concept.svg?raw=true)
 
 # Atividade 
 
 1. Acessar o [link](https://python-patterns.guide/gang-of-four/singleton/)
-2. Criar um Singleton para o projeto `pib-per-capta`
-3. Comente o uso do Singleton no projeto
-4. Identifique as responsabilidades que o Singleton passa a ter nesse contexto
+2. Prática - Criar um Singleton para o projeto `pib-per-capta`
+3. Estudo - Comente o uso do Singleton no projeto (pode ser no próprio código)
+4. Estudo - Identifique as responsabilidades que o Singleton passa a ter nesse contexto (pode ser no próprio código)
 
