@@ -1,22 +1,10 @@
 import pandas as pd
 
-# Passos para refatorar
-# 1. Verificar métodos com nomes significativos
-# 2. Padronizar nomes de métodos com o snake_pattern
-# 3. Remover código hard-coded
-# 4. Padronizar nomes de atributos e constantes
-# 5. Padronizar a estrutura do código em formatação de tabelas (com espaços)
-# 6. Padronizar e organizar blocos de código com responsabilidade semelhante
-
 class Config:
     _base_file = "data/base.xlsx"
     _region    = "UF_Regiao"
 
-class CalculatePibPerCaptaFactory:
-    @classmethod
-    def create_instance(self):
-        return CalculatePibPerCaptaSingleton.get_instance()
-
+    
 class CalculatePibPerCaptaSingleton:
     # atributos da classe 
     _instance = None
@@ -52,15 +40,3 @@ class CalculatePibPerCaptaSingleton:
 
     def print_all_content(self):
         print(self.current_content)
-
-def main():
-    calculate = CalculatePibPerCaptaFactory.create_instance()
-    
-    print(calculate)
-    
-    calculate.load_file()
-    calculate.load_uf_by_region()
-    calculate.print_all_content()
-    
-
-main()
