@@ -15,7 +15,7 @@ Objetivos dessa aula:
 
 **Desenho da solução - UML**
 
-![Factory](https://github.com/aceiro/fatec-tec-2022/blob/main/docs/aula-2/factory_concept.jpg?raw=true)
+![Factory](https://github.com/aceiro/fatec-tec-2022/blob/main/docs/aula-2/factory_concept.svg?raw=true)
 
 # Atividade 
 
