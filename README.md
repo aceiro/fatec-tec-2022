@@ -14,7 +14,7 @@ Essa disciplina tem como objetivo Padrões de projeto Orientados a Objetos. Padr
 ## Planejamento
 - [Introdução](https://github.com/aceiro/fatec-tec-2022/blob/main/docs/aula-0/Tecnicas_Programacao-Aula-01-Fatec_Araras.pdf)
 - [Parte 1 - Design Pattern GoF: Singleton (✅)](https://github.com/aceiro/fatec-tec-2022/blob/main/docs/aula-1.md)
-- Parte 2 - Design Pattern GoF: Factory
+- [Parte 2 - Design Pattern GoF: Factory (✅)](https://github.com/aceiro/fatec-tec-2022/blob/main/docs/aula-2.md)
 - Parte 3 - Design Pattern GoF: Adapter
 - Parte 4 - Design Pattern GoF: Strategy
 - Parte 5 - Design Pattern GoF: Observer
