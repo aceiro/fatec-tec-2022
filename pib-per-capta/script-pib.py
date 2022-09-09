@@ -12,6 +12,11 @@ class Config:
     _base_file = "data/base.xlsx"
     _region    = "UF_Regiao"
 
+class CalculatePibPerCaptaFactory:
+    @classmethod
+    def create_instance(self):
+        return CalculatePibPerCaptaSingleton.get_instance()
+
 class CalculatePibPerCaptaSingleton:
     # atributos da classe 
     _instance = None
@@ -49,15 +54,13 @@ class CalculatePibPerCaptaSingleton:
         print(self.current_content)
 
 def main():
-    calculate1 = CalculatePibPerCaptaSingleton.get_instance()
-    calculate2 = CalculatePibPerCaptaSingleton.get_instance()
+    calculate = CalculatePibPerCaptaFactory.create_instance()
     
-    print(calculate1)
-    print(calculate2)
+    print(calculate)
     
-    calculate2.load_file()
-    calculate2.load_uf_by_region()
-    calculate2.print_all_content()
+    calculate.load_file()
+    calculate.load_uf_by_region()
+    calculate.print_all_content()
     
 
 main()
