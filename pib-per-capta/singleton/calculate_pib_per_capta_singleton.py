@@ -1,11 +1,25 @@
 import pandas as pd
+from abc import ABC, abstractclassmethod
 
+# QUIZ - 
+# Qual classe é a Abstração e qual é a implementação ?
+# R: Abstração --> AbstractCalculatePib Implementação --> CalculatePibPerCaptaSingleton
+
+# Para casa:
+# 1) Implementar a abstração completa CalculatePibPerCaptaSingleton
+# 2) Fazer o diagrama UML do PIB Per Capta
 class Config:
     _base_file = "data/base.xlsx"
     _region    = "UF_Regiao"
 
+
+class AbstractCalculatePib(ABC):
+    @abstractclassmethod
+    def get_instance():
+        raise RuntimeError('TODO: Método ainda não implementado')
+
     
-class CalculatePibPerCaptaSingleton:
+class CalculatePibPerCaptaSingleton(AbstractCalculatePib):
     # atributos da classe 
     _instance = None
     raw_data  = None
