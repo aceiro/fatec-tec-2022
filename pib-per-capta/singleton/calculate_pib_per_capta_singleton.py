@@ -1,18 +1,25 @@
 import pandas as pd
+from abc import ABC, abstractclassmethod
 
-# Passos para refatorar
-# 1. Verificar métodos com nomes significativos
-# 2. Padronizar nomes de métodos com o snake_pattern
-# 3. Remover código hard-coded
-# 4. Padronizar nomes de atributos e constantes
-# 5. Padronizar a estrutura do código em formatação de tabelas (com espaços)
-# 6. Padronizar e organizar blocos de código com responsabilidade semelhante
+# QUIZ - 
+# Qual classe é a Abstração e qual é a implementação ?
+# R: Abstração --> AbstractCalculatePib Implementação --> CalculatePibPerCaptaSingleton
 
+# Para casa:
+# 1) Implementar a abstração completa CalculatePibPerCaptaSingleton
+# 2) Fazer o diagrama UML do PIB Per Capta
 class Config:
     _base_file = "data/base.xlsx"
     _region    = "UF_Regiao"
 
-class CalculatePibPerCaptaSingleton:
+
+class AbstractCalculatePib(ABC):
+    @abstractclassmethod
+    def get_instance():
+        raise RuntimeError('TODO: Método ainda não implementado')
+
+    
+class CalculatePibPerCaptaSingleton(AbstractCalculatePib):
     # atributos da classe 
     _instance = None
     raw_data  = None
@@ -47,17 +54,3 @@ class CalculatePibPerCaptaSingleton:
 
     def print_all_content(self):
         print(self.current_content)
-
-def main():
-    calculate1 = CalculatePibPerCaptaSingleton.get_instance()
-    calculate2 = CalculatePibPerCaptaSingleton.get_instance()
-    
-    print(calculate1)
-    print(calculate2)
-    
-    calculate2.load_file()
-    calculate2.load_uf_by_region()
-    calculate2.print_all_content()
-    
-
-main()
