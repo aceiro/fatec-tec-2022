@@ -13,11 +13,43 @@ class Config:
     _region    = "UF_Regiao"
 
 
+# Uma Classe Abstrata representa um contrato com regras
+# cada regra em um código é uma função ou método que 
+# contém as assinaturas.
+# 
+# Uma assinatura é a definição de um método, com parâmetros,
+# tipos e retorno.
+# 
+# No exemplo abaixo AbstractCalculatePib, responda:
+# 1) Quantos contratos temos ? 
+# R: 1
+
+# 2) Quantas regras temos ? 
+# R: 4
+
+# 3) Quantas assinaturas temos ? 
+# R: 4
+
+# 4) Como podemos violar o contrato da AbstractCalculatePib ?
+# R: Não implementando a classe AbstractCalculatePib ou não implementando
+#    ao menos um método (regra) da classe
+
 class AbstractCalculatePib(ABC):
     @abstractclassmethod
     def get_instance():
         raise RuntimeError('TODO: Método ainda não implementado')
 
+    @abstractclassmethod
+    def load_file(self):
+        raise RuntimeError('TODO: Método ainda não implementado')
+    
+    @abstractclassmethod
+    def load_uf_by_region(self):
+        raise RuntimeError('TODO: Método ainda não implementado')
+
+    @abstractclassmethod
+    def print_all_content(self):
+        raise RuntimeError('TODO: Método ainda não implementado')
     
 class CalculatePibPerCaptaSingleton(AbstractCalculatePib):
     # atributos da classe 
@@ -43,14 +75,17 @@ class CalculatePibPerCaptaSingleton(AbstractCalculatePib):
         else:
             return cls._instance
 
+    @classmethod
     def load_file(self):
         print("Inicio do script de PIB x Percapta")
         self.raw_data = pd.ExcelFile(Config._base_file)
         return self.raw_data
 
+    @classmethod
     def load_uf_by_region(self):
         self.current_content = pd.read_excel(self.raw_data, Config._region )
         return self.current_content
 
+    @classmethod
     def print_all_content(self):
         print(self.current_content)
