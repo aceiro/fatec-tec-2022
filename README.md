@@ -26,3 +26,4 @@ Essa disciplina tem como objetivo Padrões de projeto Orientados a Objetos. Padr
 
 ## Atividade e Lista
 - [Atividade](https://github.com/aceiro/fatec-tec-2022/blob/main/docs/aula-3/atividade.pdf)
+- [Lista para 07/10](https://...)
