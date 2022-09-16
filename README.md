@@ -23,3 +23,6 @@ Essa disciplina tem como objetivo Padrões de projeto Orientados a Objetos. Padr
 - Parte 8 - SOLID
 - Parte 9 - Padrões de Arquitetura
 - Parte 10 - DDD - Domain-Driven Design (Padrões Táticos)
+
+## Atividade e Lista
+- [Atividade](https://github.com/aceiro/fatec-tec-2022/blob/main/docs/aula-3/atividade.pdf)
